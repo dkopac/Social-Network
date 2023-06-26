@@ -9,7 +9,7 @@ const {
     addReaction,
     removeReaction
 
-} = require('../../controllers/thought-controller');
+} = require('../../controllers/thoughtsController');
 
 // /api/thoughts
 router
