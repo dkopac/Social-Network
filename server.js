@@ -21,8 +21,8 @@ app.use(routes);
 // Start the API server
 db.once('open', () => {
     app.listen(PORT, () => {
-        console.log(`API server running on port ${PORT}!`);
-        console.log(`Use GraphQL at http://localhost:${PORT}${cwd}/graphql`);
+        console.log(`Your server is running on ${PORT}!`);
+        //console.log(`Use GraphQL at http://localhost:${PORT}${cwd}/graphql`);
     });
 }
 );
