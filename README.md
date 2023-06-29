@@ -15,7 +15,7 @@
 
 [7.Submission](#Submission)
 
-[8.Questions](#Qustions)
+[8.Questions](#Questions)
 
 
 ## Description
@@ -81,8 +81,11 @@ This repo can be used to as a boiler plate to create a social network API.
 
 ## Walkthrough Videos
 User Routes: https://drive.google.com/file/d/1kmx1hP0zNzhQ8ZfgM0xA1TrnWgAiC7lv/view 
+
 Friend Routes: https://drive.google.com/file/d/1VN_7YOk9ZN6J7HITK2OfIP6orYJTZ4uw/view
+
 Thought Routes: https://drive.google.com/file/d/1W3usfk9epK2ubtdtCmjYjVijOgFHMPVd/view
+
 Reaction Routes: https://drive.google.com/file/d/1HPj3O0vkkI4ZUJUIhZUxnB14cYQXNAVM/view
 
 ## Submission
