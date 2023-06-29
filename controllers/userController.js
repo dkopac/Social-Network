@@ -1,3 +1,4 @@
+const { ObjectId } = require('mongoose').Types;
 const { User, Thought } = require('../models');
 
 const userController = {
@@ -69,7 +70,7 @@ const userController = {
   deleteUser({ params }, res) {
     Thought.deleteMany({ userId: params.id })
       .then(() => {
-        User.findOneAndDelete({ userId: params.id })
+        User.findOneAndDelete({ _id: ObjectId(params.id)})
           .then(dbUserData => {
             if (!dbUserData) {
               res.status(404).json({ message: 'No User found with this id!' });
@@ -81,7 +82,7 @@ const userController = {
       .catch(err => res.json(err));
   },
 
-  // /api/users/:userid/fiends/:friendId
+  // /api/users/:userid/friends/:friendId
   addFriend({ params }, res) {
     User.findOneAndUpdate(
       { _id: params.userId },
