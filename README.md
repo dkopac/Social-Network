@@ -23,9 +23,12 @@ Module 18 Challenge was to create a social network API using NoSQL and MongoDB w
 
 ## Installation
 MongoDB must be installed.
+
 Use the following:
 ```npm init -y```
+
 ```npm i express mongoose moment```
+
 Start the server using:
 ```npm start```
 
